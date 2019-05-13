@@ -13,4 +13,4 @@ npm run start
 ```
 
 ## Challenge Goals
-The goal of those challenges is to practice raw, usable and maintainable CSS.
+The goal of those challenges is to practice plain, usable and maintainable CSS.
