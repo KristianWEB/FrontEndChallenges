@@ -1,0 +1,50 @@
+.header {
+  height: 85vh;
+  background-image: linear-gradient(120deg, rgba(#a1c4fd, 0.2) 0%, rgba(#c2e9fb, 0.8) 100%),
+  url("../images/bg-hero-desktop.svg");
+  background-size: contain;
+
+  & > * {
+    padding: 0 10rem;
+  }
+
+  .navigation {
+    padding-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+
+  .content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+    grid-column-gap: 10rem;
+    
+    &__info {
+      align-self: center;
+
+      &--heading {
+        font-size: 5rem;
+      }
+
+      &--text {
+        margin-top: 4rem;
+        display: block;
+        font-size: 2rem;
+      }
+
+      &--btn {
+        margin-top: 2rem;
+        background-color: #FE5FC5;
+        color: #fff;
+      }
+    }
+
+    &__image {
+      margin-top: 5rem;
+      width: 100%;
+      background-size: contain;
+    }
+  }
+}
