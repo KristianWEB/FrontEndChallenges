@@ -1,0 +1,29 @@
+.subscription {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15rem;
+  margin-bottom: -7rem;
+  
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ffffff;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+    padding: 5rem 15rem;
+    border-radius: 10px;
+
+
+    &--text {
+      font-size: 3rem;
+      margin-bottom: 2rem;
+    }
+
+    &--btn {
+      background-color: #FE5FC5;
+      color: #ffffff;
+    }
+  }
+}

@@ -5,7 +5,7 @@
   background-size: contain;
 
   & > * {
-    padding: 0 10rem;
+    margin: 0 10rem;
   }
 
   .navigation {
@@ -13,6 +13,10 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+
+    &__btn {
+      background-color: #ffffff;
+    }
   }
 
 
@@ -20,7 +24,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
     grid-column-gap: 10rem;
-    
+
     &__info {
       align-self: center;
 
