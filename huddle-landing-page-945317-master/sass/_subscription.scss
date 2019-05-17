@@ -15,10 +15,18 @@
     padding: 5rem 15rem;
     border-radius: 10px;
 
+    @media only screen and (max-width: 50rem) {
+      padding: 2rem 3rem;
+    }
+
 
     &--text {
       font-size: 3rem;
       margin-bottom: 2rem;
+
+      @media only screen and (max-width: 50rem) {
+       font-size: 2rem;
+      }
     }
 
     &--btn {

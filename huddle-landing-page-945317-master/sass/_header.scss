@@ -14,6 +14,12 @@
     justify-content: space-between;
     align-items: flex-start;
 
+    &__img {
+      @media only screen and (max-width: 40rem) {
+        width: 40%;
+      }
+    }
+
     &__btn {
       background-color: #ffffff;
     }
@@ -30,12 +36,22 @@
 
       &--heading {
         font-size: 5rem;
+        margin-bottom: 4rem;
+        @media only screen and (max-width: 75rem) {
+          font-size: 3rem;
+          text-align: center;
+          margin-bottom: 2rem;
+          margin-top: 5rem;
+          padding-right: 0;
+        }
       }
 
       &--text {
-        margin-top: 4rem;
         display: block;
         font-size: 2rem;
+        @media only screen and (max-width: 60rem) {
+          font-size: 1.5rem;
+        }
       }
 
       &--btn {
@@ -48,7 +64,13 @@
     &__image {
       margin-top: 5rem;
       max-width: 100%;
+      min-height: 35rem;
       background-size: contain;
+      @media only screen and (max-width: 60rem) {
+        margin: 4rem auto;
+        max-width: 90%;
+      }
+
     }
   }
 }

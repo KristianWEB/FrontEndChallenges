@@ -14,9 +14,15 @@
     box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
     padding: 5rem 15rem;
     border-radius: 10px; }
+    @media only screen and (max-width: 50rem) {
+      .subscription__container {
+        padding: 2rem 3rem; } }
     .subscription__container--text {
       font-size: 3rem;
       margin-bottom: 2rem; }
+      @media only screen and (max-width: 50rem) {
+        .subscription__container--text {
+          font-size: 2rem; } }
     .subscription__container--btn {
       background-color: #FE5FC5;
       color: #ffffff; }
@@ -72,6 +78,9 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-start; }
+    @media only screen and (max-width: 40rem) {
+      .header .navigation__img {
+        width: 40%; } }
     .header .navigation__btn {
       background-color: #ffffff; }
   .header .content {
@@ -82,11 +91,21 @@ body {
     .header .content__info {
       align-self: center; }
       .header .content__info--heading {
-        font-size: 5rem; }
+        font-size: 5rem;
+        margin-bottom: 4rem; }
+        @media only screen and (max-width: 75rem) {
+          .header .content__info--heading {
+            font-size: 3rem;
+            text-align: center;
+            margin-bottom: 2rem;
+            margin-top: 5rem;
+            padding-right: 0; } }
       .header .content__info--text {
-        margin-top: 4rem;
         display: block;
         font-size: 2rem; }
+        @media only screen and (max-width: 60rem) {
+          .header .content__info--text {
+            font-size: 1.5rem; } }
       .header .content__info--btn {
         margin-top: 2rem;
         background-color: #FE5FC5;
@@ -94,7 +113,12 @@ body {
     .header .content__image {
       margin-top: 5rem;
       max-width: 100%;
+      min-height: 35rem;
       background-size: contain; }
+      @media only screen and (max-width: 60rem) {
+        .header .content__image {
+          margin: 4rem auto;
+          max-width: 90%; } }
 
 .card {
   display: flex;
@@ -111,22 +135,27 @@ body {
       width: 100%; } }
   .card:first-child {
     margin-top: 10rem; }
-  .card__text--heading {
-    font-size: 3rem;
-    padding-bottom: 1rem; }
-  .card__text--paragraph {
-    font-size: 2rem;
-    color: #444;
-    padding-bottom: 10%; }
+  .card__text {
+    max-width: 50%; }
+    @media only screen and (max-width: 85em) {
+      .card__text {
+        margin: 0 auto;
+        max-width: 40%; } }
+    @media only screen and (max-width: 70em) {
+      .card__text {
+        max-width: 100%;
+        margin: 0 auto; } }
+    .card__text--heading {
+      font-size: 3rem;
+      padding-bottom: 1rem; }
+    .card__text--paragraph {
+      font-size: 2rem;
+      color: #444;
+      padding-bottom: 10%; }
   .card__image {
     max-width: 50%; }
-    @media only screen and (max-width: 105em) {
-      .card__image {
-        max-width: 60%;
-        margin: 0 auto; } }
     @media only screen and (max-width: 85em) {
       .card__image {
-        max-width: 75%;
         margin: 0 auto; } }
 
 .row-reverse {
@@ -140,7 +169,7 @@ body {
   flex-wrap: wrap;
   font-family: Roboto; }
   .footer > * {
-    margin-left: 20rem; }
+    margin: 0 auto; }
   .footer__location {
     display: flex;
     margin-top: 2rem; }
