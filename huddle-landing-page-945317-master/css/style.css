@@ -1,40 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
-.subscription {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-top: 15rem;
-  margin-bottom: -7rem; }
-  .subscription__container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: #ffffff;
-    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
-    padding: 5rem 15rem;
-    border-radius: 10px; }
-    .subscription__container--text {
-      font-size: 3rem;
-      margin-bottom: 2rem; }
-    .subscription__container--btn {
-      background-color: #FE5FC5;
-      color: #ffffff; }
-
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: inherit; }
-
-html {
-  box-sizing: border-box;
-  font-size: 62.5%; }
-
-body {
-  font-family: Roboto, sans; }
-
 .btn {
   border: none;
   cursor: pointer;
@@ -61,41 +25,6 @@ body {
     -o-transform: translateY(2px);
     transform: translateY(2px); }
 
-.header {
-  max-height: 100%;
-  background-image: linear-gradient(120deg, rgba(161, 196, 253, 0.2) 0%, rgba(194, 233, 251, 0.8) 100%), url("../images/bg-hero-desktop.svg");
-  background-size: contain; }
-  .header > * {
-    margin: 0 3%; }
-  .header .navigation {
-    padding-top: 4rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start; }
-    .header .navigation__btn {
-      background-color: #ffffff; }
-  .header .content {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
-    grid-column-gap: 10rem;
-    padding-bottom: 3%; }
-    .header .content__info {
-      align-self: center; }
-      .header .content__info--heading {
-        font-size: 5rem; }
-      .header .content__info--text {
-        margin-top: 4rem;
-        display: block;
-        font-size: 2rem; }
-      .header .content__info--btn {
-        margin-top: 2rem;
-        background-color: #FE5FC5;
-        color: #fff; }
-    .header .content__image {
-      margin-top: 5rem;
-      max-width: 100%;
-      background-size: contain; }
-
 .card {
   display: flex;
   justify-content: space-between;
@@ -111,26 +40,134 @@ body {
       width: 100%; } }
   .card:first-child {
     margin-top: 10rem; }
-  .card__text--heading {
-    font-size: 3rem;
-    padding-bottom: 1rem; }
-  .card__text--paragraph {
-    font-size: 2rem;
-    color: #444;
-    padding-bottom: 10%; }
+  .card__text {
+    max-width: 50%;
+    padding-left: 2rem; }
+    @media only screen and (max-width: 85em) {
+      .card__text {
+        margin: 0 auto;
+        max-width: 40%; } }
+    @media only screen and (max-width: 70em) {
+      .card__text {
+        max-width: 100%;
+        margin: 0 auto; } }
+    .card__text--heading {
+      font-size: 3rem;
+      padding-bottom: 1rem; }
+    .card__text--paragraph {
+      font-size: 2rem;
+      color: #444;
+      padding-bottom: 10%; }
   .card__image {
     max-width: 50%; }
-    @media only screen and (max-width: 105em) {
-      .card__image {
-        max-width: 60%;
-        margin: 0 auto; } }
     @media only screen and (max-width: 85em) {
       .card__image {
-        max-width: 75%;
         margin: 0 auto; } }
 
 .row-reverse {
   flex-direction: row-reverse; }
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+body {
+  font-family: Roboto, sans; }
+
+.header {
+  max-height: 100%;
+  background-image: linear-gradient(120deg, rgba(161, 196, 253, 0.2) 0%, rgba(194, 233, 251, 0.8) 100%), url("../images/bg-hero-desktop.svg");
+  background-size: contain; }
+  .header > * {
+    margin: 0 3%; }
+  .header .navigation {
+    padding-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    @media only screen and (max-width: 40em) {
+      .header .navigation__img {
+        width: 30%; } }
+    .header .navigation__btn {
+      background-color: #ffffff; }
+  .header .content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+    grid-column-gap: 10rem;
+    padding-bottom: 3%; }
+    @media only screen and (max-width: 25em) {
+      .header .content {
+        grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr)); } }
+    .header .content__info {
+      align-self: center; }
+      .header .content__info--heading {
+        font-size: 5rem;
+        margin-bottom: 4rem; }
+        @media only screen and (max-width: 75em) {
+          .header .content__info--heading {
+            font-size: 3rem;
+            margin-bottom: 2rem;
+            margin-top: 5rem;
+            padding-right: 0; } }
+      .header .content__info--text {
+        display: block;
+        font-size: 2rem; }
+        @media only screen and (max-width: 60em) {
+          .header .content__info--text {
+            font-size: 1.5rem; } }
+      .header .content__info--btn {
+        margin-top: 2rem;
+        background-color: #FE5FC5;
+        color: #fff; }
+    .header .content__image {
+      margin-top: 5rem;
+      max-width: 100%;
+      min-height: 35rem;
+      background-size: contain; }
+      @media only screen and (max-width: 60rem) {
+        .header .content__image {
+          margin: 4rem auto;
+          max-width: 90%; } }
+      @media only screen and (max-width: 25rem) {
+        .header .content__image {
+          max-width: 100%;
+          min-height: 20rem;
+          margin: 4rem 0; } }
+
+.subscription {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15rem;
+  margin-bottom: -7rem; }
+  .subscription__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ffffff;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+    padding: 5rem 15rem;
+    border-radius: 10px; }
+    @media only screen and (max-width: 50rem) {
+      .subscription__container {
+        padding: 2rem 3rem; } }
+    .subscription__container--text {
+      font-size: 3rem;
+      margin-bottom: 2rem; }
+      @media only screen and (max-width: 50rem) {
+        .subscription__container--text {
+          font-size: 2rem; } }
+    .subscription__container--btn {
+      background-color: #FE5FC5;
+      color: #ffffff; }
 
 .footer {
   padding-top: 10rem;
@@ -140,7 +177,7 @@ body {
   flex-wrap: wrap;
   font-family: Roboto; }
   .footer > * {
-    margin-left: 20rem; }
+    margin: 0 auto; }
   .footer__location {
     display: flex;
     margin-top: 2rem; }

@@ -4,7 +4,15 @@
     <list default="true" id="cc039909-983c-43e7-b646-eb672c14f4fb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/sass/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_header.scss" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/_subscription.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_subscription.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/components/_card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/components/_card.scss" afterDir="false" />
+>>>>>>> 991c123a5272cf21e660a5cba56d2849da20322a
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +25,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="280">
               <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+=======
+            <state relative-caret-position="327">
+              <caret line="30" column="69" selection-start-line="30" selection-start-column="69" selection-end-line="30" selection-end-column="69" />
+>>>>>>> 991c123a5272cf21e660a5cba56d2849da20322a
             </state>
           </provider>
         </entry>
@@ -35,8 +48,40 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sass/_header.scss">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="446">
               <caret line="53" selection-start-line="53" selection-end-line="53" />
+=======
+            <state relative-caret-position="506">
+              <caret line="22" column="12" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sass/components/_card.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sass/_subscription.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="529">
+              <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sass/_footer.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+>>>>>>> 991c123a5272cf21e660a5cba56d2849da20322a
             </state>
           </provider>
         </entry>
@@ -73,18 +118,33 @@
         <option value="$PROJECT_DIR$/sass/_nav.scss" />
         <option value="$PROJECT_DIR$/sass/main.scss" />
         <option value="$PROJECT_DIR$/sass/_base.scss" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/sass/components/_button.scss" />
         <option value="$PROJECT_DIR$/package.json" />
+=======
+        <option value="$PROJECT_DIR$/sass/components/_button.scss" />
+        <option value="$PROJECT_DIR$/sass/components/_card.scss" />
+        <option value="$PROJECT_DIR$/sass/_subscription.scss" />
+        <option value="$PROJECT_DIR$/sass/_footer.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
+>>>>>>> 991c123a5272cf21e660a5cba56d2849da20322a
         <option value="$PROJECT_DIR$/sass/_header.scss" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+<<<<<<< HEAD
     <option name="x" value="155" />
     <option name="y" value="-19" />
     <option name="width" value="975" />
     <option name="height" value="1049" />
+=======
+    <option name="x" value="315" />
+    <option name="y" value="-15" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+>>>>>>> 991c123a5272cf21e660a5cba56d2849da20322a
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -178,12 +238,19 @@
       <workItem from="1557779640337" duration="3000" />
       <workItem from="1557779886825" duration="265000" />
       <workItem from="1557782373399" duration="134000" />
+<<<<<<< HEAD
       <workItem from="1558115394177" duration="741000" />
       <workItem from="1558209424117" duration="778000" />
+=======
+      <workItem from="1558103838908" duration="175000" />
+      <workItem from="1558125966250" duration="13000" />
+      <workItem from="1558128867493" duration="3284000" />
+>>>>>>> 991c123a5272cf21e660a5cba56d2849da20322a
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="11559000" />
   </component>
   <component name="ToolWindowManager">
@@ -191,12 +258,25 @@
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.12751678" />
+=======
+    <option name="totallyTimeSpent" value="13512000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12846482" />
+>>>>>>> 991c123a5272cf21e660a5cba56d2849da20322a
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="npm" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Run" order="2" weight="0.32898173" />
+=======
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3257965" />
+>>>>>>> 991c123a5272cf21e660a5cba56d2849da20322a
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -204,7 +284,11 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
+<<<<<<< HEAD
       <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.22454308" />
+=======
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.22302158" />
+>>>>>>> 991c123a5272cf21e660a5cba56d2849da20322a
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -243,22 +327,63 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+=======
+    <entry file="file://$PROJECT_DIR$/sass/components/_button.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/components/_button.scss">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        <state relative-caret-position="345">
+          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/_base.scss">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_subscription.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+>>>>>>> 991c123a5272cf21e660a5cba56d2849da20322a
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/components/_card.scss">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="80">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+=======
+        <state relative-caret-position="120">
+          <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+>>>>>>> 991c123a5272cf21e660a5cba56d2849da20322a
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="300">
           <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
         </state>
@@ -275,6 +400,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="446">
           <caret line="53" selection-start-line="53" selection-end-line="53" />
+=======
+        <state relative-caret-position="327">
+          <caret line="30" column="69" selection-start-line="30" selection-start-column="69" selection-end-line="30" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="22" column="12" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+>>>>>>> 991c123a5272cf21e660a5cba56d2849da20322a
         </state>
       </provider>
     </entry>

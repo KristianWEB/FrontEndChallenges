@@ -21,6 +21,19 @@
 
 
   &__text {
+    max-width: 50%;
+    padding-left: 2rem;
+    @media only screen and (max-width: 85em) {
+      margin: 0 auto;
+      max-width: 40%;
+    }
+
+    @media only screen and (max-width: 70em) {
+      max-width: 100%;
+      margin: 0 auto;
+    }
+
+
     &--heading {
       font-size: 3rem;
       padding-bottom: 1rem;
@@ -34,14 +47,7 @@
 
   &__image {
     max-width: 50%;
-
-    @media only screen and (max-width: 105em) {
-      max-width: 60%;
-      margin: 0 auto;
-    }
-
     @media only screen and (max-width: 85em) {
-      max-width: 75%;
       margin: 0 auto;
     }
   }
