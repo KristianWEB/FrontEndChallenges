@@ -2,7 +2,7 @@
 > HTML and pure CSS challenges
 
 ##  Live Review
-> huddlelp.netlify.com
+> [huddlelp.netlify.com](https://huddlelp.netlify.com/)
 
 ## Build Setup
 
