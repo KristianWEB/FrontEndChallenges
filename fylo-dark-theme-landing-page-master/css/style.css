@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap");
+/*
+Primary
+Dark Blue (intro and email sign up background): hsl(217, 28%, 15%)
+*/
+/*
+Dark Blue (main background): hsl(218, 28%, 13%)
+*/
+/*
+Dark Blue (footer background): hsl(216, 53%, 9%)
+*/
+/*
+Dark Blue (testimonials background): hsl(219, 30%, 18%)
+*/
+/*
+Accent
+Cyan (inside call-to-action gradient): hsl(176, 68%, 64%)
+*/
+/*
+Blue (inside call-to-action gradient): hsl(198, 60%, 50%)
+*/
+/*
+Neutral
+White: hsl(0, 0%, 100%)
+*/
+/* --------------------- Typography ---------------------
+Body Copy
+*/
+/*
+Headings, Call-to-actions, Header Navigation
+*/
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background: #181f2a; }
+
+.header,
+.navigation {
+  background: #1c2231; }
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem; }
+  .navigation__links--1, .navigation__links--2, .navigation__links--3 {
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: white;
+    margin: 0 2rem; }
+
+.header {
+  height: 100vh;
+  max-width: 100%;
+  background-image: url("../../images/bg-curvy-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 0 30rem; }
+  .header__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; }
+    .header__info--illustration {
+      margin-top: -5rem;
+      max-height: 40rem;
+      max-width: 100%; }
+    .header__info--heading {
+      font-size: 3rem;
+      font-weight: 700;
+      margin-top: 2rem; }
+    .header__info--paragraph {
+      font-size: 1.3rem;
+      margin-top: 2.5rem;
+      margin-bottom: 2.5rem; }
+    .header__info--heading, .header__info--paragraph, .header__info--btn {
+      color: white;
+      font-family: "Raleway"; }
+    .header__info--btn {
+      text-decoration: none;
+      background: linear-gradient(#65e2d9, #339ecc);
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: white;
+      border: none;
+      padding: 1.5rem 8.5rem;
+      border-radius: 3rem;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2); }

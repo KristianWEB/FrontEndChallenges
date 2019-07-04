@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+/*
+Primary
+Dark Blue (intro and email sign up background): hsl(217, 28%, 15%)
+*/
+
+$emailSignUpBlue: hsl(217, 28%, 15%);
+
+/*
+Dark Blue (main background): hsl(218, 28%, 13%)
+*/
+
+$mainBgBlue: hsl(218, 28%, 13%);
+
+/*
+Dark Blue (footer background): hsl(216, 53%, 9%)
+*/
+
+$footerBlue: hsl(216, 53%, 9%);
+
+/*
+Dark Blue (testimonials background): hsl(219, 30%, 18%)
+*/
+
+$testimonialsBlue: hsl(219, 30%, 18%);
+
+/*
+Accent
+Cyan (inside call-to-action gradient): hsl(176, 68%, 64%)
+*/
+
+$ctaCyanGradient: hsl(176, 68%, 64%);
+
+/*
+Blue (inside call-to-action gradient): hsl(198, 60%, 50%)
+*/
+
+$ctaBlueGradient: hsl(198, 60%, 50%);
+
+/*
+Neutral
+White: hsl(0, 0%, 100%)
+*/
+
+$neutralWhite: hsl(0, 0%, 100%);
+
+/* --------------------- Typography ---------------------
+Body Copy
+*/
+
+$bodyFontFamily: 'Open Sans';
+$bodyFontSize: 1.4rem;
+$bodyFontWeightBold: 700;
+$bodyFontWeightLight: 400;
+
+/*
+Headings, Call-to-actions, Header Navigation
+*/
+$ctaFontFamily: 'Raleway';
+$ctaFontWeightBold: 700;
+$ctaFontWeightLight: 400;

@@ -1,0 +1,26 @@
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem;
+
+    &__logo {}
+
+    &__links {
+
+        &--1 {}
+
+        &--2 {}
+
+        &--3 {}
+
+        &--1,
+        &--2,
+        &--3 {
+            text-decoration: none;
+            font-size: $bodyFontSize;
+            color: $neutralWhite;
+            margin: 0 2rem;
+        }
+    }
+}
