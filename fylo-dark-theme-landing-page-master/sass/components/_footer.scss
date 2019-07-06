@@ -1,0 +1,93 @@
+footer {
+    background-color: $footerBlue;
+    height: 100%;
+    padding: 20rem;
+    padding-bottom: 5rem;
+    padding-left: 5rem;
+    padding-right: 0;
+
+    .footer {
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        max-width: 90%;
+
+        @media (max-width: 450px) {
+            flex-direction: column;
+        }
+
+        &__location,
+        &__contact,
+        &__links {
+            margin-right: 5%;
+        }
+
+        &__location {
+            margin-top: 2rem;
+            display: flex;
+            align-items: flex-start;
+            font-size: 1.5rem;
+            width: 30%;
+            color: $neutralWhite;
+            margin-bottom: 2rem;
+
+            @media (max-width: 600px) {
+                width: 100%;
+            }
+
+            &--icon {
+                margin-right: 1rem;
+            }
+        }
+
+        &__contact {
+            margin-bottom: 2rem;
+
+            &__phone,
+            &__email {
+                display: flex;
+                margin: 2rem 0;
+                margin-bottom: 2rem;
+                align-items: flex-start;
+                font-size: 1.5rem;
+                color: $neutralWhite;
+
+                &--icon {
+                    margin-right: 1rem;
+                }
+            }
+        }
+
+        &__links {
+            margin-bottom: 2rem;
+
+            a {
+                display: block;
+                text-decoration: none;
+                color: $neutralWhite;
+                font-size: 1.5rem;
+                margin: 1.5rem;
+                margin-top: 0;
+            }
+        }
+
+        &__socialmedias {
+            @media (max-width: 450px) {
+                align-self: center;
+            }
+
+            a {
+                text-decoration: none;
+                outline: none;
+
+                i {
+                    color: white;
+                    font-size: 3.5rem;
+                    margin-right: 1rem;
+                }
+            }
+
+        }
+    }
+}
