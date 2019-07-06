@@ -8,5 +8,3 @@
 # Architechture
 I used SASS ( SCSS ) Preprocessor + BEM for the architechture and made some custom components.
 
-### Future improvements
-Footer has to be fixed ( too many margins --> black magic ).
