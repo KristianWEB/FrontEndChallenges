@@ -1,7 +1,7 @@
 footer {
     background-color: $footerBlue;
     height: 100%;
-    padding: 20rem;
+    padding-top: 20rem;
     padding-bottom: 5rem;
     padding-left: 5rem;
     padding-right: 0;
@@ -17,28 +17,28 @@ footer {
             flex-direction: column;
         }
 
-        &__location,
-        &__contact,
-        &__links {
-            margin-right: 5%;
-        }
 
         &__location {
-            margin-top: 2rem;
             display: flex;
             align-items: flex-start;
             font-size: 1.5rem;
             width: 30%;
             color: $neutralWhite;
-            margin-bottom: 2rem;
+            margin: 2rem 0;
 
-            @media (max-width: 600px) {
+            @media (max-width: 650px) {
                 width: 100%;
             }
 
             &--icon {
                 margin-right: 1rem;
             }
+        }
+
+        &__location,
+        &__contact,
+        &__links {
+            margin-right: 5%;
         }
 
         &__contact {

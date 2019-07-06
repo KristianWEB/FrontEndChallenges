@@ -2,14 +2,8 @@
     height: 100vh;
     background-image: url('../../images/bg-curvy-desktop.svg');
     background-repeat: no-repeat;
-    // background-size: cover;
-    // background-position: -50rem 30rem;
     background-size: cover;
     background-position: center 25rem;
-
-    // @media screen and only (max-width: 38.5rem) {
-    //     background-image: url('../../images/bg-curvy-mobile.svg')
-    // }
 
     &__info {
         display: flex;
@@ -36,9 +30,14 @@
         }
 
         &--paragraph {
-            font-size: 1.3rem;
+            font-size: $bodyFontSize;
             margin-top: 2.5rem;
             margin-bottom: 2.5rem;
+        }
+
+        &--btn {
+            padding: 1.5rem 8.5rem;
+            font-size: 1.5rem;
         }
 
         &--heading,
@@ -46,19 +45,9 @@
         &--btn {
             color: $neutralWhite;
             font-family: $ctaFontFamily;
+            font-weight: $ctaFontWeightBold;
         }
 
-        &--btn {
-            text-decoration: none;
-            background: linear-gradient($ctaCyanGradient, $ctaBlueGradient);
-            font-size: 1.5rem;
-            font-weight: $ctaFontWeightBold;
-            color: $neutralWhite;
-            border: none;
-            padding: 1.5rem 8.5rem;
-            border-radius: 3rem;
-            box-shadow: 0 2px 6px hsla(0, 0, 0, 0.2);
-        }
     }
 
 }

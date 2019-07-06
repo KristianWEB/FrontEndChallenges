@@ -5,7 +5,8 @@
     padding: 4rem;
 
     @media (max-width: 650px) {
-        padding: 1rem 1rem 5rem 1rem;
+        padding: 1rem;
+        padding-bottom: 5rem;
     }
 
     &__logo {
@@ -16,12 +17,6 @@
     }
 
     &__links {
-
-        &--1 {}
-
-        &--2 {}
-
-        &--3 {}
 
         &--1,
         &--2,

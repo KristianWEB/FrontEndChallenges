@@ -1,0 +1,33 @@
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    max-width: 75%;
+    margin: 0 auto;
+    grid-row-gap: 5rem;
+    grid-column-gap: 30rem;
+
+    .service {
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        text-align: center;
+        padding: 2rem;
+
+        &__img {
+            width: 7rem;
+            height: 7rem;
+        }
+
+        &__heading {
+            color: $neutralWhite;
+            font-family: $ctaFontFamily;
+            font-size: 2.2rem;
+            margin-top: 1.5rem;
+            font-weight: $ctaFontWeightBold;
+        }
+
+        &__paragraph {
+            color: $neutralWhite;
+        }
+    }
+}

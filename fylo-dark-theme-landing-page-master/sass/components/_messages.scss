@@ -1,0 +1,47 @@
+.messages {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-gap: 3.5rem;
+    max-width: 70%;
+    align-items: center;
+    margin: 15rem auto;
+
+    @media(max-width:650px) {
+        margin: 15rem 0;
+        margin-left: 5rem;
+    }
+
+    &__illustration {
+        max-width: 100%;
+        justify-self: center;
+
+        @media(max-width: 800px) {
+            max-width: 90%;
+        }
+    }
+
+    &__information {
+        &--heading {
+            color: $neutralWhite;
+            font-family: $ctaFontFamily;
+            font-weight: $ctaFontWeightBold;
+            font-size: 3rem;
+        }
+
+        &--paragraph {
+            margin-top: 1rem;
+            color: $neutralWhite;
+            font-size: 1.4rem;
+            margin-bottom: 1.5rem;
+        }
+
+        &--btn {
+            padding-bottom: 3px;
+            border-bottom: 1px solid $ctaCyanGradient;
+            font-family: $ctaFontFamily;
+            text-decoration: none;
+            font-size: 1.7rem;
+            color: $ctaCyanGradient;
+        }
+    }
+}

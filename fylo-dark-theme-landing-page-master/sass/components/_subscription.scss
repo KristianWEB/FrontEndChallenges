@@ -1,0 +1,79 @@
+.subscription {
+    background-color: $emailSignUpBlue;
+    display: flex;
+    max-width: 50%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin: 15rem auto;
+    margin-bottom: -11.5rem;
+    position: relative;
+    z-index: 200;
+    padding: 5rem 10rem;
+
+    @media (max-width: 1285px) {
+        max-width: 75%;
+        padding: 5rem 7rem;
+    }
+
+    @media (max-width: 800px) {
+        max-width: 90%;
+        padding: 5rem 5rem;
+    }
+
+    @media (max-width: 650px) {
+        padding: 2rem 2rem;
+    }
+
+    &__heading {
+        font-family: $ctaFontFamily;
+        font-weight: $ctaFontWeightBold;
+        color: $neutralWhite;
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    &__paragraph {
+        color: $neutralWhite;
+        text-align: center;
+    }
+
+    &__cta {
+        margin-top: 2.5rem;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+
+        &--input {
+            flex-grow: 1;
+            padding: 1rem 2.5rem;
+            font-size: 1.5rem;
+            border-radius: 3rem;
+            outline: none;
+            border: none;
+            margin-right: 1.5rem;
+
+            @media (max-width: 650px) {
+                margin-right: 0;
+                padding: 1.5rem 2.5rem;
+                margin-bottom: 1.5rem;
+            }
+        }
+
+        &--btn {
+            padding: 1rem 2.5rem;
+            color: $neutralWhite;
+            font-size: 1.5rem;
+            font-family: $ctaFontFamily;
+            font-weight: $ctaFontWeightBold;
+
+            @media (max-width: 650px) {
+                flex-grow: 1;
+                padding: 1.5rem 2.5rem;
+                text-align: center;
+                margin-bottom: 1rem;
+            }
+        }
+    }
+}

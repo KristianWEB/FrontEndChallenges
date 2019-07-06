@@ -1,0 +1,50 @@
+.quotes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    grid-column-gap: 5rem;
+    grid-row-gap: 5rem;
+    max-width: 70%;
+    margin: 0 auto;
+
+    @media (max-width: 650px) {
+        max-width: 90%;
+        grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr))
+    }
+
+    .quote {
+        background-color: $testimonialsBlue;
+        padding: 2rem;
+
+        &__paragraph {
+            color: $neutralWhite;
+            font-size: 1.4rem;
+        }
+
+        &__footer {
+            display: flex;
+            margin-top: 1.5rem;
+
+            &--img {
+                border-radius: 50%;
+                width: 5rem;
+                height: 5rem;
+            }
+
+            &__text {
+                margin: 5px;
+
+                &--primary {
+                    color: $neutralWhite;
+                    margin-bottom: 3px;
+                }
+
+                &--secondary {
+                    color: #eee;
+                    opacity: 0.75;
+                    font-size: 1.3rem;
+                }
+            }
+        }
+
+    }
+}
